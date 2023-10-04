@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Service</title>
+</head>
+
+<body>
+    <div id="novoProduto">
+        Cadastrar Produto
+        <table>
+            <tr>
+                <td><input type="text" id="idProduto" placeholder="ID"></td>
+                <td><input type="text" id="codBarras" placeholder="Código de barras"></td>
+                <td><input type="text" id="produto" placeholder="Produto"></td>
+                <td><input type="text" id="marca" placeholder="Marca"></td>
+                <td><input type="text" id="modelo" placeholder="Modelo"></td>
+                <td><input type="text" id="valor" placeholder="Valor"></td>
+            </tr>
+            <tr>
+                <td><button onclick="cadastroProduto();">Cadastrar</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
